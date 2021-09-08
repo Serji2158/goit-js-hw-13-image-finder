@@ -25,3 +25,24 @@
   background-size: cover;
   background-position: center;
 }
+
+/* Picture Search--------------*/
+
+button,
+[button-load-more] {
+    display: block;
+}
+
+button.is-hidden {
+    display: none;
+}
+
+.photo-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.error {
+    color: red;
+  }
