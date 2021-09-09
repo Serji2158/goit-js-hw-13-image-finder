@@ -28,21 +28,63 @@
 
 /* Picture Search--------------*/
 
-button,
-[button-load-more] {
-    display: block;
+body {
+  background-color: rgb(145, 127, 127);
+}
+.search-form {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 5px;
+}
+
+.search-btn {
+  margin-left: 50px;
+  border-radius: 5px;
+  background-color: rgb(89, 193, 241);
+  font-weight: 700;
+}
+
+button {
+  display: block;
+  margin: 5px auto;
+  border-radius: 5px;
+  background-color: rgb(89, 193, 241);
+  font-weight: 700;
 }
 
 button.is-hidden {
-    display: none;
+  display: none;
 }
 
 .photo-card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;    
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .error {
-    color: red;
-  }
+  color: red;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 120px) / 4);
+  margin-left: 30px;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stats-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
