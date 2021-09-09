@@ -63,6 +63,7 @@ button.is-hidden {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 120px) / 4);
+  cursor: pointer;
 }
 
 .error {
