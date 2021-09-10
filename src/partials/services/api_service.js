@@ -1,6 +1,3 @@
-// API Key = 23293981-cf73d8302544a38cc507127b0
-// const BASE_URL = https://pixabay.com/api/
-
 export default class ApiService {
   #API_KEY = '23293981-cf73d8302544a38cc507127b0';
   BASE_URL = 'https://pixabay.com/api/';

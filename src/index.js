@@ -57,8 +57,6 @@ const cleanerGallery = () => {
   refs.pictureExposition.innerHTML = '';
 };
 
-console.log(basicLightbox);
-
 function zoomPicture(e) {
   if (!e.target.classList.contains('card-image')) {
     return;
@@ -73,4 +71,3 @@ function zoomPicture(e) {
 refs.searchForm.addEventListener('submit', onPictureSearch);
 refs.loadMoreBtn.addEventListener('click', onLoadMorePictures);
 refs.pictureExposition.addEventListener('click', zoomPicture);
-// console.log(refs.searchForm);
