@@ -77,7 +77,8 @@ button.is-hidden {
   margin-left: 30px;
 }
 
-.stats {
+.stats,
+.stats-item {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -85,7 +86,4 @@ button.is-hidden {
 
 .stats-item {
   color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
